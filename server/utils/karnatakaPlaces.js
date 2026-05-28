@@ -1,0 +1,42 @@
+const karnatakaPlaces = [
+  "Bengaluru Majestic",
+  "Mysuru",
+  "Mangaluru",
+  "Hubballi",
+  "Dharwad",
+  "Belagavi",
+  "Shivamogga",
+  "Davangere",
+  "Tumakuru",
+  "Ballari",
+  "Hassan",
+  "Chikkamagaluru",
+  "Udupi",
+  "Manipal",
+  "Karwar",
+  "Madikeri",
+  "Mandya",
+  "Ramanagara",
+  "Kolar",
+  "Chitradurga",
+  "Vijayapura",
+  "Bagalkot",
+  "Raichur",
+  "Kalaburagi",
+  "Bidar",
+  "Yadgir",
+  "Haveri",
+  "Gadag",
+  "Chikkaballapur",
+  "Koppal",
+  "Hospet",
+  "Sirsi",
+  "Sagara",
+  "Dandeli",
+  "Gokarna",
+  "Murudeshwar"
+];
+
+const isKarnatakaPlace = (place) => karnatakaPlaces.includes(place);
+
+module.exports = { isKarnatakaPlace, karnatakaPlaces };
